@@ -306,6 +306,7 @@ class VirtualBookClub:
         
         # SIMPLE WORKING PROMPTS based on successful test
         prompts = {
+            "summary": f"""Analyze the book "{book['title']}" by {book['authors'][0]}. Give me:
 
             "summary": f"""Analyze the book "{book['title']}" by {book['authors'][0]}. Give me:
 📖 **PLOT**: (2-3 sentences about the main story)
