@@ -224,7 +224,7 @@ pip install -r requirements.txt --force-reinstall
 
 ## 🚀 Live Demo
 
-**Public App URL**: [Your Gradio sharing link will appear here when you run the app]
+**Public App URL**: [https://d84970332b88d7ad34.gradio.live]
 
 ## 👨‍💻 Development
 
@@ -236,5 +236,5 @@ Built following best practices:
 
 ## 📧 Contact
 
-[Your Name] - [Your Email]
-Project Link: [Your GitHub Repository URL]
+[Apu Datta] - [uda.mr.iub@gmail.com]
+Project Link: [https://github.com/dattaBus-anls/-Virtual-Book-Club.git]
