@@ -1,6 +1,6 @@
 # 📚 Virtual Book Club
 
-An AI-powered book discovery and analysis platform that helps readers find books by genre and generates intelligent summaries, discussion questions, and reading guides.
+An AI powered book discovery and analysis platform that helps readers find books by genre and generates intelligent summaries, discussion questions, reading guides and recomandations.
 
 ## 🌟 Features
 
@@ -16,7 +16,6 @@ An AI-powered book discovery and analysis platform that helps readers find books
 
 ## 🛠️ Technical Stack
 
-
 - **Frontend**: Gradio (Python web framework)
 - **AI**: Ollama with phi3:mini model (fast and efficient)
 - **Data Source**: Open Library API (free, no API key required)
@@ -30,12 +29,11 @@ An AI-powered book discovery and analysis platform that helps readers find books
 - Internet connection for book data
 - ~2.3GB RAM for AI model
 
-
 ## 🚀 Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/dattaBus-anls/-Virtual-Book-Club.git
 cd virtual-book-club
 ```
 
@@ -64,7 +62,6 @@ pip install -r requirements.txt
 - **Linux**: `curl -fsSL https://ollama.ai/install.sh | sh`
 
 
-
 #### Pull the required model:
 
 ```bash
@@ -78,7 +75,6 @@ ollama list
 
 ### 5. Environment Configuration
 
-
 ```bash
 # Create .env file with these contents:
 OLLAMA_MODEL=phi3:mini
@@ -86,8 +82,6 @@ OLLAMA_URL=http://localhost:11434/api/generate
 GRADIO_THEME=soft
 # Edit .env if needed (Open Library requires no API key!)
 ```
-
-
 ### 6. Run the Application
 ```bash
 python virtual_book_club.py
@@ -146,18 +140,17 @@ if __name__ == "__main__":
 
 Run: `python test_setup.py`
 
-
 ## 🏗️ Project Structure
 
 ```
 virtual-book-club/
 ├── virtual_book_club.py    # Main application
 ├── requirements.txt        # Python dependencies
-├── .env                   # Environment variables (create from template)
-├── .gitignore            # Git ignore rules
-├── README.md             # This file
-├── test_setup.py         # Setup verification script
-└── venv/                 # Virtual environment (created by you)
+├── .env                    # Environment variables 
+├── .gitignore              # Git ignore rules
+├── README.md               # This file
+├── test_setup.py           # Setup verification script
+└── venv/                   # Virtual environment (created by you)
 ```
 
 ## 🎨 Features Showcase
@@ -170,7 +163,7 @@ virtual-book-club/
 
 ### AI Integration (Ollama)
 - **Summary Analysis**: Plot, characters, themes, writing style
-- **Discussion Questions**: 8-10 thought-provoking questions
+- **Discussion Questions**: 5-7 thought-provoking questions
 - **Reading Guide**: Pre/during/post reading sections
 - **Recommendations**: Similar books and reader profiles
 
@@ -180,7 +173,7 @@ virtual-book-club/
 - Real-time status updates
 - Mobile-responsive layout
 
-## 🔧 Troubleshooting
+## 🔧 Troubleshooting]
 
 ### Ollama Issues
 
@@ -214,17 +207,18 @@ pip install -r requirements.txt --force-reinstall
 - If getting timeout errors, check internet connection
 - API rate limits are generous for normal usage
 
-## 📊 Scoring Criteria Met
+## 📊 Scoring Criteria are
 
-- **External Data Collection (10 points)**: ✅ Sophisticated Open Library API integration with error handling
-- **Generative AI Integration (15 points)**: ✅ Multiple sophisticated prompting strategies for different analysis types
-- **Web Application Interface (15 points)**: ✅ Professional Gradio interface with excellent UX
-- **GitHub & Documentation (5 points)**: ✅ Comprehensive README, clear setup instructions
-- **Overall Functionality (5 points)**: ✅ Seamless integration, innovative features
+- **External Data Collection**:    ✅ Sophisticated Open Library API integration with error handling
+- **Generative AI Integration**:   ✅ Multiple sophisticated prompting strategies for different analysis types
+- **Web Application Interface**:   ✅ Professional Gradio interface with excellent UX
+- **GitHub & Documentation**:      ✅ Comprehensive README, clear setup instructions
+- **Overall Functionality**:       ✅ Seamless integration, innovative features
+
 
 ## 🚀 Live Demo
 
-**Public App URL**: [https://d84970332b88d7ad34.gradio.live]
+**Public App URL**: https://cdd59a678f26b3a572.gradio.live
 
 ## 👨‍💻 Development
 
@@ -236,5 +230,5 @@ Built following best practices:
 
 ## 📧 Contact
 
-[Apu Datta] - [uda.mr.iub@gmail.com]
-Project Link: [https://github.com/dattaBus-anls/-Virtual-Book-Club.git]
+Apu Datta - uda.mr.iub@gmail.com
+Project Link: https://github.com/dattaBus-anls/-Virtual-Book-Club.git

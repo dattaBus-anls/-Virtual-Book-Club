@@ -308,7 +308,6 @@ class VirtualBookClub:
         prompts = {
             "summary": f"""Analyze the book "{book['title']}" by {book['authors'][0]}. Give me:
 
-            "summary": f"""Analyze the book "{book['title']}" by {book['authors'][0]}. Give me:
 📖 **PLOT**: (2-3 sentences about the main story)
 👤 **CHARACTERS**: (main character and their motivation)
 🎭 **THEMES**: (key themes explored)
